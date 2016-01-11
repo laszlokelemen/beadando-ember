@@ -54,7 +54,7 @@ tárgyak hozzárendelve, ez a subject adattag, egy tárgyakat tartalmazó tömb,
 subjects/list oldalon. 
 
 ##Folyamatok
-![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/bead3folyamat.png)
+![Adatbázis modell](https://github.com/bebe11/beadando-ember/blob/master/Névtelen1.png)
 
 
 ##Interfész
