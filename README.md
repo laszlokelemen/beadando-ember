@@ -46,7 +46,7 @@ a handlebars fájlok felelnek az adatbázist pedig egy restapi-s workspace bizto
 
 
 ##Modellek
-![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/bead3relation.png)
+![Adatbázis modell](https://github.com/bebe11/beadando-ember/blob/master/nomnoml.png)
 
 Itt egy kép látható az adatbázis modellről. Az subject modell tükrözi a user akinek egy egyedi adattagja van,
 az id-ja, tehát két ugyanolyan objektum nem lehet az adatbázisban. Lehet sok user , mindegyikhez lehetnek
