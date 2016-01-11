@@ -1,5 +1,5 @@
 # Alkalmazások fejlesztése 3. beadandó (ember rész)
-- [Leírás](https://www.github.com/3BL/alkfejlbead3ember#leírás)
+- [Leírás](https://github.com/bebe11/beadando-ember#leírás)
 - [Követelmények](https://www.github.com/3BL/alkfejlbead3ember#követelmények)
 - [Technológiák](https://www.github.com/3BL/alkfejlbead3ember#technológiák)
 - [Végpontok](https://www.github.com/3BL/alkfejlbead3ember#végpontok)
