@@ -10,17 +10,17 @@
 
 
 ##Leírás
-Ez a projekt az ELTE-IK programtervező informatikus Bsc szak Alkalmazások fejlesztése tárgy harmadik
-beadandója. Én egy kutyachip nyilványtartó programot választottam, ahol meg lehet nézni egy oldalon, 
-hogy mely chipek hibásak, és a hiba melyik kutyáknál jött elő.
+Ezt a projektet az ELTE-IK programtervező informatikus Bsc szak Alkalmazások fejlesztése tárgy harmadik
+beadandójaként készítettem. Egy tárgyfelvétel nyilvántartó programot készítettem, ahol meglehet nézni az 
+aktuális tárgyainkat, illetve profilunkat.
 
 
 ##Követelmények
 
 Funkcionális elvárások
 
-    Felhasználóként szeretnénk felvinni egy chipet, ami hibás --> új chip felvétel
-    Felhasználóként szeretnénk megtekinteni, szerkeszteni, törölni a chipeket
+    Felhasználóként szeretnénk felvenni egy tárgyat --> új tárgy felvétel
+    Felhasználóként szeretnénk megtekinteni, szerkeszteni, törölni a tárgyakant
 
 Nem funkcionális követelmények
 
@@ -30,28 +30,28 @@ Nem funkcionális követelmények
 
 
 ##Technológiák
-A project javascript-ben azon belül pedig ember.js-es technológiával van megvalósítva, a megjelenítéshez
+A project javascript-ben azon belül pedig ember.js-es technológiával valósítottam meg, a megjelenítéshez
 a handlebars fájlok felelnek az adatbázist pedig egy restapi-s workspace biztosítja.
  
 
 ##Végpontok
 
- * főoldal: https://bead3ember-a3bl.c9users.io
- * chiplista: /errors/list
- * chip megtekintése: /errors/error_id
- * chip szerkesztése: /errors/edit/error_id
- * chip felvétele: /errors/list
- * kutyalista: /errors/listkiskutya
- * új kiskutya hozzáadása: /errors/error_id/newkiskutya
+ * főoldal: http://beadando-ember-bebe11.c9users.io:8080/
+ * tárgylista: /subjects/list
+ * tárgy megtekintése: /subjects/subject_id
+ * tárgy szerkesztése: /subjects/edit/subject_id
+ * tárgy felvétele: /subjects/new
+ * profil: /profile
+ 
 
 
 ##Modellek
 ![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/bead3relation.png)
 
-Itt egy kép látható az adatbázis modellről. Az error modell tükrözi a chiphibát akinek egy egyedi adattagja van,
-az id-ja, tehát két ugyanolyan objektum nem lehet az adatbázisban. Lehet sok hiba, mindegyikhez lehetnek
-kiskutyák hozzárendelve, ez a kiskutyak adattag, egy kiskutyákat tartalmazó tömb, ezeket látja a felhasználó kilistázva a
-kutyalista oldalon. ** A one-to-many kapcsolat úgy valósul meg, hogy egy error-hoz több kutya is lehet rendelve, viszont visszafele már nem működik a dolog, minden kutyához csak egy hibás chip van rendelve az id-je alapján. **
+Itt egy kép látható az adatbázis modellről. Az subject modell tükrözi a user akinek egy egyedi adattagja van,
+az id-ja, tehát két ugyanolyan objektum nem lehet az adatbázisban. Lehet sok user , mindegyikhez lehetnek
+tárgyak hozzárendelve, ez a subject adattag, egy tárgyakat tartalmazó tömb, ezeket látja a felhasználó kilistázva a
+subjects/list oldalon. 
 
 ##Folyamatok
 ![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/bead3folyamat.png)
@@ -61,7 +61,7 @@ kutyalista oldalon. ** A one-to-many kapcsolat úgy valósul meg, hogy egy error
 ![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/webdesign.png)
 
 Röviden a felhasználói interfészről. A jobb felső sarokban vannak a linkek, a főoldal link értelemszerüen az index.html-re visz,
-a hibalista link a hibás chipek oldalára, a kutyalista pedig a kutyákat listázó oldalra.
+a tárgyak link a tárgyak listázó oldalára, a profil pedig a user oldalra.
 
 
 ##Adatok ellenőrzése
@@ -80,11 +80,11 @@ A fejlesztés zökkenőmentes menetéhez szükség lesz 2GB memóriára és vala
 ##Funkció lista 
 
 
-- error, kiskutya egyedi az id alapján, csak egy lehet mindegyikből
-- Chiplistázó oldal müködik
-- Szerkesztés/Törlés funkció müködik
+- user, subject egyedi az id alapján, csak egy lehet mindegyikből
+- tárgylistázó oldal müködik
+- Szerkesztés/Törlés/Hozzáadás funkció müködik
 
 További fejlesztési lehetőség:
 - többféle tesztelési és validációs lehetőség implementálása
 - login, regisztráció implementálása
-- minden chipnél csak a hozzá felvett ebeket lássuk
+
