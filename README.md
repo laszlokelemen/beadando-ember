@@ -1,12 +1,12 @@
 # Alkalmazások fejlesztése 3. beadandó (ember rész)
 - [Leírás](https://github.com/bebe11/beadando-ember#leírás)
-- [Követelmények](https://www.github.com/3BL/alkfejlbead3ember#követelmények)
-- [Technológiák](https://www.github.com/3BL/alkfejlbead3ember#technológiák)
-- [Végpontok](https://www.github.com/3BL/alkfejlbead3ember#végpontok)
-- [Modellek](https://www.github.com/3BL/alkfejlbead3ember#modellek)
-- [Folyamatok](https://www.github.com/3BL/alkfejlbead3ember#folyamatok)
-- [Felhasználói interfész](https://www.github.com/3BL/alkfejlbead3ember#interfész)
-- [Adatok ellenőrzése](https://www.github.com/3BL/alkfejlbead3ember#Adatok ellenőrzése)
+- [Követelmények](https://github.com/bebe11/beadando-ember#követelmények)
+- [Technológiák](https://github.com/bebe11/beadando-ember#technológiák)
+- [Végpontok](https://github.com/bebe11/beadando-ember#végpontok)
+- [Modellek](https://github.com/bebe11/beadando-ember#modellek)
+- [Folyamatok](https://github.com/bebe11/beadando-ember#folyamatok)
+- [Felhasználói interfész](https://github.com/bebe11/beadando-ember#interfész)
+- [Adatok ellenőrzése](https://github.com/bebe11/beadando-ember#Adatok ellenőrzése)
 
 
 ##Leírás
