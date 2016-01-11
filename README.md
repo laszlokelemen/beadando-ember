@@ -58,7 +58,7 @@ subjects/list oldalon.
 
 
 ##Interfész
-![Adatbázis modell](https://github.com/3BL/alkfejlbead3ember/blob/master/documentation/webdesign.png)
+![Adatbázis modell](https://github.com/bebe11/beadando-ember/blob/master/Névtelen.png)
 
 Röviden a felhasználói interfészről. A jobb felső sarokban vannak a linkek, a főoldal link értelemszerüen az index.html-re visz,
 a tárgyak link a tárgyak listázó oldalára, a profil pedig a user oldalra.
